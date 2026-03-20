@@ -24,7 +24,9 @@
     "loginPath": "/login",
     "loginButtonSelectors": [
       "button:has-text('使用 LinuxDO 继续')",
-      "text=使用 LinuxDO 继续"
+      "button:has-text('Continue with LinuxDO')",
+      "text=使用 LinuxDO 继续",
+      "text=Continue with LinuxDO"
     ],
     "successUrlPatterns": [
       "/token",
