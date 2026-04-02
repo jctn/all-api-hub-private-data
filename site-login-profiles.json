@@ -1,5 +1,186 @@
 {
+  "ai.zzhdsgsss.xyz": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "anyrouter.top": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "api.925214.xyz": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "api.daiju.live": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "api.einzieg.site": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "api.hotaruapi.top": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
   "api.ouu.ch": {
+    "executionMode": "local-browser",
     "loginPath": "/login",
     "loginButtonSelectors": [
       "button:has-text('使用 LinuxDO 继续')",
@@ -16,6 +197,336 @@
     "tokenStorageKeys": [
       "access_token",
       "token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "clove.cc.cd": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "kfc-api.sxxe.net": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "lc.zenscaleai.com": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "linuxdoapi.223384.xyz": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "newapi.431128hys.site": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "newapi.linuxdo.edu.rs": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "newapi.sorai.me": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "openai.api-test.us.ci": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "runanytime.hxi.me": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "sakuradori.dpdns.org": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
+      "authorization"
+    ],
+    "postLoginSelectors": []
+  },
+  "windhub.cc": {
+    "executionMode": "local-browser",
+    "loginPath": "/login",
+    "loginButtonSelectors": [
+      "button[data-provider='linuxdo']",
+      "a[data-provider='linuxdo']",
+      "a[href*='linux.do']",
+      "button:has-text('使用 LinuxDO 继续')",
+      "button:has-text('Continue with LinuxDO')",
+      "button:has-text('LinuxDO')",
+      "a:has-text('LinuxDO')",
+      "button[data-provider='github']",
+      "a[href*='github']",
+      "button:has-text('Sign in')",
+      "a:has-text('Sign in')"
+    ],
+    "successUrlPatterns": [
+      "/token",
+      "/dashboard",
+      "/panel",
+      "/console"
+    ],
+    "tokenStorageKeys": [
+      "access_token",
+      "token",
+      "api_token",
       "authorization"
     ],
     "postLoginSelectors": []
