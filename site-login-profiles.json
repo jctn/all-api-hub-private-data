@@ -199,7 +199,15 @@
       "token",
       "authorization"
     ],
-    "postLoginSelectors": []
+    "postLoginSelectors": [],
+    "localBrowser": {
+      "openRootBeforeCheckin": true,
+      "cloudflareMode": "prewarm",
+      "allowRetryAfterBrowserChallenge": true,
+      "flareSolverrScope": "root",
+      "flareSolverrTargetPath": "/",
+      "manualFallbackPolicy": "disabled"
+    }
   },
   "clove.cc.cd": {
     "executionMode": "local-browser",
@@ -379,7 +387,15 @@
       "api_token",
       "authorization"
     ],
-    "postLoginSelectors": []
+    "postLoginSelectors": [],
+    "localBrowser": {
+      "openRootBeforeCheckin": true,
+      "cloudflareMode": "prewarm",
+      "allowRetryAfterBrowserChallenge": true,
+      "flareSolverrScope": "root",
+      "flareSolverrTargetPath": "/",
+      "manualFallbackPolicy": "disabled"
+    }
   },
   "newapi.sorai.me": {
     "executionMode": "local-browser",
