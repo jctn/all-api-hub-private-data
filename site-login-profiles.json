@@ -469,7 +469,15 @@
       "api_token",
       "authorization"
     ],
-    "postLoginSelectors": []
+    "postLoginSelectors": [],
+    "localBrowser": {
+      "allowRetryAfterBrowserChallenge": true,
+      "cloudflareMode": "prewarm",
+      "openRootBeforeCheckin": true,
+      "manualFallbackPolicy": "disabled",
+      "flareSolverrScope": "root",
+      "flareSolverrTargetPath": "/"
+    }
   },
   "sakuradori.dpdns.org": {
     "executionMode": "local-browser",
